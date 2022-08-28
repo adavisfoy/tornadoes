@@ -4,7 +4,7 @@ Link to **Google Slides Presentation**:
 https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsMXpk/edit?usp=sharing
 
 
-## Overview of Project
+## Overview of Group Project
    - **Selected topic:**
        Tornadoes
    - **Reason why we selected our topic:**  
