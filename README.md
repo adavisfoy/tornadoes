@@ -81,7 +81,17 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
 
 ## Machine Learning Models
 
-Prior to applying either model the dataset is accessed in the database via PySpark, then converted to a Pandas df, and data types are converted to appropriate. The dataset is assigne the input and output variable then split in to training and testing data. 
+Our group experimented with 3 different machine learning models: 
+- Random Forest
+- Logist Regression & 
+- Neural Network
+
+Summary of Steps for Applying Machine Learning Models: 
+- the dataset is accessed in the database via PySpark
+- dataset converted to a Pandas df
+- conversion of data types as appropriate
+- dataset is assigned the input and output variables
+- data then split in to training and testing data 
 
 1. Determine tornado's EF score based on these metrics: number of injuries, number of fatalities, loss ($), crop loss($), length (mi), and width (yds)
    - **Random Forest**                                                                          
@@ -115,7 +125,7 @@ The Neural Network Model testing data returned Loss: 0.9574524760246277 and Accu
 ![](https://github.com/adavisfoy/group_2_project/blob/20402cb68e114dadb272f1f0eaa03d847215ad3f/ML/Final%20ML%20Models/Images/NN_accuracy.png) |  ![](https://github.com/adavisfoy/group_2_project/blob/20402cb68e114dadb272f1f0eaa03d847215ad3f/ML/Final%20ML%20Models/Images/NN_loss.png) | 
 
 
-Summary: From our experience with these machine learning methods it seems that this dataset has very complicated patterns or the lack of patterns making it difficult to model. We think some of this may come from the fact that the vast majority of tornadoes in our dataset did not have any fatalities but one entry has 168 fatalites. This likely makes it very difficult to the machine learning algorithms to learn a pattern from this dataset. 
+Summary: From our experience with these machine learning methods, it seems that this dataset has very complicated patterns or the lack of patterns making it difficult to model. We think some of this may come from the fact that the vast majority of tornadoes in our dataset did not have any fatalities but one entry has 168 fatalites. This likely makes it very difficult to the machine learning algorithms to learn a pattern from this dataset. 
 
 
 ## Database:
